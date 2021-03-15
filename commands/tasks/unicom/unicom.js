@@ -290,9 +290,9 @@ var start = async (params) => {
   }, taskOption)
 
   // 首页-积分乐园-集牛卡
-  await scheduler.regTask('newYearUserSign', async (request) => {
-    await require('./newYearUserSign').doTask(request, options)
-  }, taskOption)
+  //await scheduler.regTask('newYearUserSign', async (request) => {
+  //  await require('./newYearUserSign').doTask(request, options)
+  //}, taskOption)
 
   // 首页-签到有礼-免费拿-猜拳拿奖
   await scheduler.regTask('dailyFingerSign', async (request) => {
